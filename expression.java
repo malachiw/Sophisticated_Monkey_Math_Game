@@ -1,14 +1,20 @@
-
 public class expression {
 
   public static int getNumberOne() {
-		int number1 = mathGame.getNumber();
+		int number1 = getNumber();
 		return number1;
 	}
 	
 	public static int getNumberTwo() {
-		int number2 = mathGame.getNumber();
+		int number2 = getNumber();
 		return number2;
+	}
+	
+	static int getNumber() {
+		
+		int a = (int) Math.round(Math.random()*10);
+		return a;
+		
 	}
 	
 	public static char getOperator() {
