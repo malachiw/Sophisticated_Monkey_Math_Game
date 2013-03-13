@@ -1,5 +1,4 @@
 
-
 public class mathGame {
   
 	static int number1 = expression.getNumberOne();
@@ -14,16 +13,6 @@ public class mathGame {
 		
 		return wereTheyRight;		
 	}
-	
-		
-	static int getNumber() {
-		
-		int a = (int) Math.round(Math.random()*10);
-		return a;
-		
-	}
-	
-	
 	
 	static boolean evaluateAnswer(int number1, int number2, int userAnswer, char operator) {
 		
